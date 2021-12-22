@@ -1,0 +1,32 @@
+.backgroun-wrapper {
+  border: 1px solid black;
+  border-radius: 10px;
+  background: linear-gradient(#e66465, #9198e5);
+  box-shadow: 0 0 2em white;
+  position: fixed;
+  top: 20vh;
+  left: 5%;
+  width: 87%;
+  background-color: white;
+  padding: 0.5rem;
+  z-index: 30;
+  animation: slide-down 700ms ease-out forwards;
+}
+
+@media (min-width: 768px) {
+  .backgroun-wrapper {
+    width: 40rem;
+    left: calc(50% - 20rem);
+  }
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-4rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

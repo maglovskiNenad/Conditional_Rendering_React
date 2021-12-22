@@ -1,0 +1,21 @@
+.header {
+  text-align: center;
+}
+
+.textInHeader {
+  letter-spacing: 1px;
+}
+
+.btnLoggout {
+  border: 1px solid white;
+  margin: 1px auto;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.main {
+}
+
+.footer {
+  margin: 2rem auto;
+}
