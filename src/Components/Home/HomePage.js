@@ -16,12 +16,12 @@ const HomePage = (props) => {
         <h2>Welcome to your Acount.</h2>
         <p>How are you today?</p>
       </main>
-      <footer className={classes.footer}>
-        <small>We are very glad to see you again!</small>
-      </footer>
       <Button onClick={props.onClick} className={classes.btnLoggout}>
         Logout
       </Button>
+      <footer className={classes.footer}>
+        <small>We are very glad to see you again!</small>
+      </footer>
     </Fragment>
   );
 };
